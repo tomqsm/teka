@@ -23,6 +23,9 @@
             <add-attribute value="Firma|/firma|firma|Informacje o firmie"/>
         </put-list-attribute>
     </definition>
+    <definition name="btstrp" template="/WEB-INF/tiles/btstrptemplate.jsp">
+        
+    </definition>
     
     <definition name="m-masterpage" template="/WEB-INF/tiles/m-masterpage.jsp">
         <put-attribute name="title" value="default" type="string" cascade="true"/>
@@ -30,11 +33,8 @@
         <put-attribute name="menu" value="/WEB-INF/views/shared/menu_pl.jsp" />
     </definition>
     
-    <definition extends="masterpage" name="index">
-        <!--here you can add your own page specific scripts-->
-        <!--<put-attribute name="pagejs" value="" />-->
-        <put-attribute name="pagejs" value="resources/scripts/index/cennik.js" />
-        <put-attribute name="body" value="/WEB-INF/views/index/index.jsp" />
+    <definition extends="btstrp" name="index">
+        
     </definition>
 
     <definition extends="masterpage" name="cennik">
