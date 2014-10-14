@@ -3,7 +3,7 @@
 <%@page session="false" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@taglib prefix="s" uri="http://www.springframework.org/tags" %>
-<%@taglib prefix="f" uri="http://lukasfloor.com/tags" %>
+<%@taglib prefix="f" uri="http://teka.com/tags" %>
 <c:forEach var="menuLineIdx" items="${menuList}" varStatus="loop">
     <c:if test="${!loop.first}">
         <li>

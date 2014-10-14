@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context antiJARLocking="true" path="/lukasfloorspring">
+<Context antiJARLocking="true" path="/teka">
     <Resource auth="Container" 
               driverClassName="${db.driver.class.name}" 
               maxActive="20" 

@@ -4,7 +4,7 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@taglib prefix="s" uri="http://www.springframework.org/tags" %>
 <%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
-<%@taglib prefix="f" uri="http://lukasfloor.com/tags" %>
+<%@taglib prefix="f" uri="http://teka.com/tags" %>
 <%@taglib prefix="t" uri="http://tiles.apache.org/tags-tiles" %>
 <div class="breadCrumbsContainer">
     <c:forEach var="menuLineIdx" items="${breadcrumbList}" varStatus="loop">
